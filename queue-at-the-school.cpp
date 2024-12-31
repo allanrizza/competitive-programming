@@ -7,10 +7,9 @@ int main() {
     int ch, t;
     string q;
 
-    cin >> ch >> t;
-    cin >> q;
+    cin >> ch >> t >> q;
 
-    for(int count = 1; count <= t; count++) {
+    while(t--) {
         for(int i = 0; i < ch; i++) {
             if(q[i] == 'B' && q[i+1] == 'G') {
                 q[i] = 'G';
